@@ -1,0 +1,155 @@
+.demo-layout-transparent {
+  
+  background-color: white;
+  background-size:cover;
+
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: -webkit-linear-gradient(right, #FFFFFF, #FFFF0);
+  background: -moz-linear-gradient(right, #FFFFFF, #FFFF0);
+  background: -o-linear-gradient(right, #FFFFFF, #FFFF0);
+  background: linear-gradient(to left, #FFFFFF, #FFFF0);
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;      
+}
+
+
+.flechita {
+    padding-right: 10px;
+    padding-left: 15px;
+    padding-top: 5px;
+    color: #43A047;
+}
+
+
+.flechita a, .finalderecha a{
+    color: #43A047;
+}
+
+.titulitoindex {
+    position: fixed; 
+    top: 100px; 
+    left: 0; 
+    z-index: 999; 
+    width: 100%; 
+    height: 23px;
+    
+	margin-top: 0;
+    font-size: 25px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
+.titulito {
+    font-size: 25px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
+.titulitoder {
+    font-size: 20px;
+    padding-top: 40px;
+    padding-left: 105px;
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+}
+
+.titulitoder2{
+    font-size: 20px;
+    padding-top: 8px;
+    padding-left: 60px;
+    text-align: left;
+    font-family: "Roboto", sans-serif; 
+}
+
+
+.agrupador{
+    padding: 50px 80px 80px 50px;
+    margin: 10px;
+    
+}
+
+.finalderecha {
+    padding: 10px;
+    text-align: right;
+    padding-right: 70px;
+     font-size: 18px;
+    color: #43A047;
+}
+
+
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #00AA4A;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+    
+      -webkit-border-radius: 10px;  
+  -moz-border-radius: 10px; 
+    border-radius: 10px;
+
+    
+}
+.form button:hover,.form button:active,.form button:focus {
+  background: #43A047;
+}
+
+
+.divbotoncito {
+    
+    padding: 10px;    
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+.fondocolor {
+    
+    background-color: #43A047;
+}
+
+#mapa{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+
+.informacionpedido{
+    width: 80%;
+    height: 35%;
+    top:50%;
+    
+    margin: 0 auto;
+    position: relative;
+    background:whitesmoke;
+    color: gray;
+    
+    
+  -moz-border-radius: 5%;
+  -webkit-border-radius: 5%;        
+   border-radius: 5%;
+    
+    text-align: center;
+    align-content: center;
+    font-family: "Roboto", sans-serif; 
+    padding: 5%;
+    
+    opacity: 1;
+    transition: opacity 0.6s; 
+    z-index: 100;  
+    bottom: 0;
+}
+
+

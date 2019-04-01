@@ -1,0 +1,47 @@
+/* The alert message box */
+
+.notificacion {
+    padding: 20px;
+    background-color: #f44336; /* WHITE */
+    color: white;
+    
+    opacity: 1;
+    transition: opacity 0.6s; 
+    z-index: 100;   
+    position: absolute;
+    width: 100% ;
+    bottom: 0;
+}
+
+.notificacion .titulito {
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+    
+  padding: 15px;
+  color: #FFFFFF;
+}
+
+.notificacion .soyuntextito {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+    
+  padding: 15px;
+  color: #FFFFFF;
+}
+
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+  color: black;
+}

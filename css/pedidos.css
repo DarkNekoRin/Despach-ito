@@ -1,0 +1,57 @@
+
+.mispedidosdiv {
+     
+    font-family: "Roboto", sans-serif; 
+    padding: 20px;
+    padding-top: 20px;
+    
+    background-color: whitesmoke; /* WHITE */
+    color: white;
+    
+    opacity: 1;
+    transition: opacity 0.6s; 
+    z-index: 100;   
+    position: fixed;
+    width: 100% ;
+    bottom: 0;
+    
+    height: 75%;
+    
+    margin-top:-45px;
+    
+  -moz-border-top-left-radius: 5%;
+  -moz-border-top-right-radius: 5%;    
+  -webkit-border-top-left-radius: 5%;
+  -webkit-border-top-right-radius: 5%;    
+    
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;    
+}
+
+.unpedido {
+    background-color: whitesmoke; 
+    color: gray;
+    -webkit-border-radius: 10px;  
+    -moz-border-radius: 10px; 
+    border-radius: 10px;
+    font-family: "Roboto", sans-serif; 
+}
+
+.flechitablanca {
+    padding-right: 10px;
+    padding-left: 15px;
+    padding-top: 5px;
+    color: white;
+}
+
+.flechitablanca a{
+    color: white;
+}
+
+.textoblanco{
+    color: white;
+}
+
+a {
+    color: gray;
+}
