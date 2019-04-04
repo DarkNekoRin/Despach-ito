@@ -9,4 +9,4 @@ pipelines:
               AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
               AWS_DEFAULT_REGION: 'us-west-1'
               S3_BUCKET: 'despachito-bucket'
-              LOCAL_PATH: 'build'
+              LOCAL_PATH: $(pwd)
