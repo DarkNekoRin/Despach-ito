@@ -66,7 +66,7 @@
                             <li><a class="white-text " href="index.html">  
                                  <img src="img/mispedidos.png" alt="" class="responsive-img iconsitomenu">
                                 <span class="flow-text">Mis Articulos</span></a></li> 
-                            <li><a class="white-text " href="#">  
+                            <li><a class="white-text " href="historial.html">  
                                  <img src="img/historial.png" alt="" class="responsive-img iconsitomenu">
                                 <span class="flow-text">Historial</span></a></li>  
                             <li><a class="white-text " href="mis_ofertas.html">  
@@ -102,27 +102,39 @@
         var statusHTML="";
           $.ajax({
               type:"GET",
-              url: "http://10.100.48.23:8080/pedidos/saga/43547663",
+              url: "http://10.100.48.23:8080/pedidos/activos/43547663",
               contentType: "application/json; charset=utf-8",
               dataType: "json"
           }).then(function(data) {
       
               $.each(data, function (i, theItem) {
                 var url="pedido_mapa.html";
+                var iconname="img/icon.png";
+                var fechaEntrega=theItem.fechaEntrega;
                   if(theItem.empresa.nombre==="Lineo"){
+                    iconname="img/linio.png";
+                    if(theItem.estado==="compra realizada"){
+                      fechaEntrega="";
+                    }
+
                     url="pedido_lineo.html";
                   }
                   if(theItem.empresa.nombre==="Saga"){
                     url="pedido_saga.html";
+                    iconname="img/falabella.png";
                   }
-
-                           statusHTML +='<div class="collection unpedido ">'+
+                  if(theItem.empresa.nombre==="Sodimac"){
+                    url="pedido_saga.html";
+                    iconname="img/sodimac.png";
+                  }
+                  statusHTML +='<div class="collection unpedido ">'+
                               '<a href="'+url+'?id='+theItem.id+'" >'+
                                   '<li class="collection-item avatar ">'+
-                                    '<img src="img/icon.png" alt="" class="circle">'+
+                                    '<img src="'+iconname+'" alt="" class="circle">'+
                                     '<span class="title"><b>'+theItem.producto.nombre+'</b></span>'+
                                     '<p>'+theItem.empresa.nombre+' <br>'+
-                                      'Fecha Estimada:'+ theItem.fechaEntrega +
+                                      '<span class="title"><b>'+theItem.estado+'</b></span><br>'+
+                                      'Fecha Estimada:'+ fechaEntrega +
                                     '</p>'+
                                     '</li>'+
                                   '</a>'+
