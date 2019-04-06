@@ -270,3 +270,27 @@ background-image: url("../img/camion.jpg") ;
       background-size:cover;
 
 }
+
+.informacionpedido{
+    width: 80%;
+    height: 48%;
+    top:42%;
+    
+    margin: 0 auto;
+    position: relative;
+    
+    
+  -moz-border-radius: 5%;
+  -webkit-border-radius: 5%;        
+   border-radius: 5%;
+    
+    text-align: center;
+    align-content: center;
+    font-family: "Nunito", "Roboto", sans-serif; 
+    padding: 5%;
+    
+    opacity: 0.8;
+    transition: opacity 0.6s; 
+    z-index: 100;  
+    bottom: 0;
+}
