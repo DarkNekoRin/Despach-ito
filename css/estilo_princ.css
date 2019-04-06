@@ -196,3 +196,20 @@ body {
     max-width: 30px; 
     max-height: 30px;
 }
+
+.derechito{
+    text-align: left;
+    
+}
+
+.mapabackground {
+  background-image: url("../img/mapa_background.jpg");
+  background-color: #cccccc;
+
+}
+
+.mapalineobackground{
+background-image: url("../img/embarcacion.jpg");
+  background-color: #cccccc;
+    
+}
