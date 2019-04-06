@@ -159,7 +159,8 @@ body {
 }
 
 .colorFondoV {
-      background: #00cc66; 
+      background: #00cc66;
+        opacity: 1;
       color: #FFFFFF; 
 }
 
@@ -200,6 +201,13 @@ body {
 
 .derechito{
     text-align: left;
+    
+}
+
+.fonditoArticulo{
+    top: 0;
+  background-image: url("../img/Mis_Articulos.jpg");
+  background-color: #00cc66;
     
 }
 
