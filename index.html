@@ -110,8 +110,13 @@
           }).then(function(data) {
       
               $.each(data, function (i, theItem) {
+                var url="pedido_mapa.html";
+                  if(theItem.empresa.nombre==="Lineo"){
+                    url="pedido_lineo.html";
+                  }
+
                            statusHTML +='<div class="collection unpedido ">'+
-                              '<a href="pedido_mapa.html" >'+
+                              '<a href="'+url+'" >'+
                                   '<li class="collection-item avatar ">'+
                                     '<img src="img/yuna.jpg" alt="" class="circle">'+
                                     '<span class="title"><b>'+theItem.producto.nombre+'</b></span>'+
