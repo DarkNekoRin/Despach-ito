@@ -108,13 +108,13 @@
           }).then(function(data) {
       
               $.each(data, function (i, theItem) {
-                var url="pedido_mapa.html";
+                var url="#";
                 var iconname="img/icon.png";
                 var fechaEntrega=theItem.fechaEntrega;
                   if(theItem.empresa.nombre==="Lineo"){
                     iconname="img/linio.png";
                     if(theItem.estado==="Compra Realizada"){
-                      fechaEntrega="";
+                      fechaEntrega="Pendiente Delivery";
                     }
                   }
                   if(theItem.empresa.nombre==="Saga"){                   
@@ -127,7 +127,7 @@
                     url="pedido_almacen.html";
                   }else if(theItem.estado==="Despacho en Proceso"){
                     url="pedido_mapa.html";
-                  }else{
+                  }else if(theItem.estado==="En Delivery"){
                     url="pedido_lineo.html";
                   }
 
@@ -138,7 +138,7 @@
                                   '<li class="collection-item avatar ">'+
                                     '<img src="'+iconname+'" alt="" class="circle">'+
                                     '<span class="title"><b>'+theItem.producto.nombre+'</b></span>'+
-                                    '<p>'+theItem.empresa.nombre+' <br>'+
+                                    '<p>'+
                                       '<span class="title"><b>'+theItem.estado+'</b></span><br>'+
                                       'Fecha Estimada:'+ fechaEntrega +
                                     '</p>'+
