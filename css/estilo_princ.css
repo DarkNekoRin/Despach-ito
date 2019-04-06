@@ -205,11 +205,13 @@ body {
 .mapabackground {
   background-image: url("../img/mapa_background.jpg");
   background-color: #cccccc;
+      background-size:cover;
 
 }
 
 .mapalineobackground{
-background-image: url("../img/embarcacion.jpg");
+background-image: url("../img/embarcacion.jpg") ;
   background-color: #cccccc;
+      background-size:cover;
     
 }
