@@ -210,6 +210,22 @@ body {
     
 }
 
+.fonditoMis{
+    top: 0;
+  background-image: url("../img/fondi.jpg");
+  background-color: #00cc66;
+    
+}
+
+
+.fonditoHistorial{
+    top: 0;
+  background-image: url("../img/historial.jpg");
+  background-color: #00cc66;
+    
+}
+
+
 .mapabackground {
   background-image: url("../img/Mapa_Animao.gif");
   background-color: #cccccc;
