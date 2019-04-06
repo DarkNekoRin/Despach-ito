@@ -160,7 +160,6 @@ body {
 
 .colorFondoV {
       background: #00cc66;
-        opacity: 1;
       color: #FFFFFF; 
 }
 
@@ -226,7 +225,7 @@ background-image: url("../img/embarcacion.jpg") ;
 }
 
 .mapasagabackground{ 
-background-image: url("../img/barco.jpg") ;
+background-image: url("../img/embarcacion.jpg") ;
   background-color: #cccccc;
       background-size:cover;
     
