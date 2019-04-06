@@ -217,6 +217,13 @@ background-image: url("../img/embarcacion.jpg") ;
     
 }
 
+.mapasagabackground{ 
+background-image: url("../img/barco.jpg") ;
+  background-color: #cccccc;
+      background-size:cover;
+    
+}
+
 .centradito{
     text-align: center;
 }
