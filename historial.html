@@ -6,35 +6,38 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Login </title>
+    <title>Despach-ito Mis Pedidos </title>
+
     
+    <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
     <!--Import Google Icon Font-->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
+
         <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+        <link type="text/css" rel="stylesheet" href="css/menucito.css" />
         <link type="text/css" rel="stylesheet" href="css/estilo_princ.css" />   
         <link type="text/css" rel="stylesheet" href="css/pedidos.css" />
     
-    
         <script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
-        <script type="text/javascript" src="js/materialize.min.js"></script>    
+        <script type="text/javascript" src="js/materialize.min.js"></script>
 
-    
+		<script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/hola.js"></script>
-    
-    
-</head>
 
-<body class="demo-layout-transparent colorFondoV">
+</head>
     
-     
+<body class="demo-layout-transparent fondocolor" >
+    
+    
+          
     <nav class="arriba" >
      <div class=" colorFondoV">
               <a href="#" data-activates="mobile-demo" class="button-collapse show-on-large AppName">  <img src="img/hamburguesita.png" class="responsive-img hamburguesita">  </a>  <span class=" flow-text txtdespachito" > DESPACHI-TO </span>
              
                 
          <!-- titulo -->
-         <div class="titulito textoblanco "> Mi Cuenta </div>
+         <div class="titulito textoblanco "> Mis Articulos </div>
          
              
               <ul class="side-nav colorFondoV darken-2" id="mobile-demo">
@@ -80,77 +83,65 @@
          
             </div>
     </nav>
+   
 
+    <!-- FIN COSITO HAMBURGUESIN <= HAMBURGUESIN  -->
+
+
+         <div class="titulito textoblanco "> Historial de Pedidos </div>
     
     
-      <div class="container colorFondoW gordito">
-               <div class="col s12">             
+      <div id="mispedidosdiv" class="mispedidosdiv">
+        
+    </div>
+    
+    
+       
+    <script>
+      $(document).ready(function() {
+        var statusHTML="";
+          $.ajax({
+              type:"GET",
+              url: "http://10.100.48.23:8080/pedidos/historial/43547663",
+              contentType: "application/json; charset=utf-8",
+              dataType: "json"
+          }).then(function(data) {
+      
+              $.each(data, function (i, theItem) {
 
-             <h4 class="colorLogo light">  Registrarse </h4>
-              <div class="divider"></div>
-          
-
-                   <div class="row" >
-                     
-                    <div class="section"> 
-                        
-                        <form id="idReg" class="col s12">
-     
-                                         
-                         <span class="flow-text">Datos Personales</span>
-                          
-                        <div class="section">
-                            <div class="row">
-                                <div class="input-field col s6">
-                                  <input id="txtNombre" type="text" class="validate"  value="Alfredo" >
-                                  <label for="txtNombre">Nombres</label>
-                                </div>
-                                <div class="input-field col s6">
-                                  <input id="txtApellido" type="text" class="validate"  value="Barrios Perez" >
-                                  <label for="txtApellido">Apellidos</label>
-                                </div>
-                              </div>
-
-
-                              <div class="row">
-                                <div class="input-field col s6">
-                                  <input id="idDNI" type="text" class="validate" disabled value="43547663"  >
-                                  <label for="idDNI">DNI</label>
-                                </div>
-                                <div class="input-field col s6">
-                                  <input id="idCelular" type="tel" class="validate"  value="964741867">
-                                  <label for="idCelular">Celular</label>
-                                </div>
-                              </div>
+                var iconname="img/icon.png";
+                  if(theItem.empresa.nombre==="Lineo"){
+                    iconname="img/linio.png";
+                  }
+                  if(theItem.empresa.nombre==="Saga"){
+                    iconname="img/falabella.png";
+                  }
+                  if(theItem.empresa.nombre==="Sodimac"){
+                    iconname="img/sodimac.png";
+                  }
 
 
-                         </div>   
-                            
-                                                        
-                        <div class="section"> 
-                             <span class="flow-text">Cuentas Enlazadas</span>
-                                <div class="form">
-                                    <br> 
-                                         <button class="divbotoncito" type="button" disabled>Cuenta Falabella</button>
-                                        <button class="divbotoncito" type="button" disabled>Cuenta Lineo</button>
-                                        <button class="divbotoncito" type="button" disabled>Cuenta Sodimac</button>
-                                </div>
-                             <div class="section"> 
-                            
-                              </div>
-                         </div>   
-                            
-                        </form>
-
-                    
-                    </div>
-                </div>
+                 statusHTML +='<div class="collection unpedido ">'+
+                              '<a href="#">'+
+                                  '<li class="collection-item avatar ">'+
+                                    '<img src="'+iconname+'" alt="" class="circle">'+
+                                    '<span class="title"><b>'+theItem.producto.nombre+'</b></span>'+
+                                    '<p>'+theItem.empresa.nombre+' <br>'+
+                                      'Fecha Entregada:'+ theItem.fechaEntrega +
+                                    '</p>'+
+                                    '</li>'+
+                                  '</a>'+
+                        '</div>';
 
 
-           </div>           
-          
-      </div>
+              });
+              $('#mispedidosdiv').html(statusHTML);
+      
+          });
+      });
+              </script>
 
 </body>
+
 
 </html>
