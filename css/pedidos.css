@@ -1,7 +1,7 @@
 
 .mispedidosdiv {
      
-    font-family: "Roboto", sans-serif; 
+    font-family: "Nunito", "Roboto", sans-serif; 
     padding: 20px;
     padding-top: 20px;
     
@@ -34,7 +34,7 @@
     -webkit-border-radius: 10px;  
     -moz-border-radius: 10px; 
     border-radius: 10px;
-    font-family: "Roboto", sans-serif; 
+    font-family: "Nunito", "Roboto", sans-serif; 
 }
 
 .flechitablanca {

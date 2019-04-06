@@ -1096,11 +1096,11 @@
 }
 
 .green {
-  background-color: #4CAF50 !important;
+  background-color: #00cc66 !important;
 }
 
 .green-text {
-  color: #4CAF50 !important;
+  color: #00cc66 !important;
 }
 
 .green.lighten-5 {
@@ -4444,7 +4444,7 @@ nav .input-field label.active i {
 }
 
 @font-face {
-  font-family: "Roboto";
+  font-family: "Nunito", "Roboto";
   src: local(Roboto Medium), url("../fonts/roboto/Roboto-Medium.woff2") format("woff2"), url("../fonts/roboto/Roboto-Medium.woff") format("woff");
   font-weight: 500;
 }
@@ -4461,7 +4461,7 @@ a {
 
 html {
   line-height: 1.5;
-  font-family: "Roboto", sans-serif;
+  font-family: "Nunito", "Roboto", sans-serif;
   font-weight: normal;
   color: rgba(0, 0, 0, 0.87);
 }
@@ -6209,9 +6209,9 @@ input[type=search].valid:not(.browser-default),
 input[type=search].valid:not(.browser-default):focus,
 textarea.materialize-textarea.valid,
 textarea.materialize-textarea.valid:focus, .select-wrapper.valid > input.select-dropdown {
-  border-bottom: 1px solid #4CAF50;
-  -webkit-box-shadow: 0 1px 0 0 #4CAF50;
-          box-shadow: 0 1px 0 0 #4CAF50;
+  border-bottom: 1px solid #00cc66;
+  -webkit-box-shadow: 0 1px 0 0 #00cc66;
+          box-shadow: 0 1px 0 0 #00cc66;
 }
 
 input.invalid:not([type]), input.invalid:not([type]):focus,
@@ -6271,7 +6271,7 @@ input[type=search]:not(.browser-default):focus.valid + label:after,
 textarea.materialize-textarea.valid + label:after,
 textarea.materialize-textarea:focus.valid + label:after, .select-wrapper.valid + label:after {
   content: attr(data-success);
-  color: #4CAF50;
+  color: #00cc66;
   opacity: 1;
   -webkit-transform: translateY(9px);
           transform: translateY(9px);
@@ -8185,7 +8185,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .slider .indicators .indicator-item.active {
-  background-color: #4CAF50;
+  background-color: #00cc66;
 }
 
 .carousel {

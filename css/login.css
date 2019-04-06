@@ -15,7 +15,7 @@
 /*  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24); */
 }
 .form input {
-  font-family: "Roboto", sans-serif;
+  font-family: "Nunito", "Roboto", sans-serif;
   outline: 0;
   background: #f2f2f2;
   width: 100%;
@@ -35,7 +35,7 @@
 }
 
 .form .messageb a {
-  color: #4CAF50;
+  color: #00cc66;
   text-decoration: none;
 }
 
@@ -45,7 +45,7 @@ text-align: center;
   font-size: 12px;
 }
 .message a {
-  color: #4CAF50;
+  color: #00cc66;
   text-decoration: none;
 }
 .form .register-form {

@@ -6,12 +6,12 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Nunito",  "Roboto", sans-serif;
   background: -webkit-linear-gradient(right, #FFFFFF, #FFFF0);
   background: -moz-linear-gradient(right, #FFFFFF, #FFFF0);
   background: -o-linear-gradient(right, #FFFFFF, #FFFF0);
   background: linear-gradient(to left, #FFFFFF, #FFFF0);
-  font-family: "Roboto", sans-serif;
+  font-family: "Nunito", "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;      
 }
@@ -21,12 +21,12 @@ body {
     padding-right: 10px;
     padding-left: 15px;
     padding-top: 5px;
-    color: #43A047;
+    color: #00cc66;
 }
 
 
 .flechita a, .finalderecha a{
-    color: #43A047;
+    color: #00cc66;
 }
 
 .titulitoindex {
@@ -40,13 +40,14 @@ body {
 	margin-top: 0;
     font-size: 25px;
     text-align: center;
-    font-family: "Roboto", sans-serif;
+    font-family: "Nunito", "Roboto", sans-serif;
 }
 
 .titulito {
     font-size: 25px;
     text-align: center;
-    font-family: "Roboto", sans-serif;
+    font-family: "Nunito", "Roboto", sans-serif;
+    top: 100px; 
 }
 
 .titulitoder {
@@ -54,7 +55,7 @@ body {
     padding-top: 40px;
     padding-left: 12%;
     text-align: left;
-    font-family: "Roboto", sans-serif;
+    font-family: "Nunito", "Roboto", sans-serif;
 }
 
 .titulitoder2{
@@ -62,7 +63,7 @@ body {
     padding-top: 8px;
     padding-left: 60px;
     text-align: left;
-    font-family: "Roboto", sans-serif; 
+    font-family: "Nunito", "Roboto", sans-serif; 
 }
 
 
@@ -77,12 +78,12 @@ body {
     text-align: right;
     padding-right: 70px;
      font-size: 18px;
-    color: #43A047;
+    color: #00cc66;
 }
 
 
 .form button {
-  font-family: "Roboto", sans-serif;
+  font-family: "Nunito", "Roboto", sans-serif;
   text-transform: uppercase;
   outline: 0;
   background: #00AA4A;
@@ -102,7 +103,7 @@ body {
     
 }
 .form button:hover,.form button:active,.form button:focus {
-  background: #43A047;
+  background: #00cc66;
 }
 
 
@@ -115,7 +116,7 @@ body {
 
 .fondocolor {
     
-    background-color: #43A047;
+    background-color: #00cc66;
 }
 
 #mapa{
@@ -143,7 +144,7 @@ body {
     
     text-align: center;
     align-content: center;
-    font-family: "Roboto", sans-serif; 
+    font-family: "Nunito", "Roboto", sans-serif; 
     padding: 5%;
     
     opacity: 1;
@@ -152,4 +153,46 @@ body {
     bottom: 0;
 }
 
+.colorFondoW {
+      background: #FFFFFF;   
+      color: #00cc66; 
+}
 
+.colorFondoV {
+      background: #00cc66;    
+}
+
+
+.txtdespachito {
+ color: #00cc66; 
+}
+
+
+.arriba {
+  position: absolute;
+  top: 0;
+  border: 0;
+}
+
+.iconsito50 {
+    max-width: 40px; 
+    max-height: 40px;
+    margin-left: 5px;
+    margin-top: 10px;
+
+}
+
+
+.iconsitomenu {
+    max-width: 35px; 
+    max-height: 35px;
+	margin-top: 5px;
+    margin-right: 7px;
+	top: -100px;
+}
+
+.hamburguesita{ 
+    margin-top: 15px;
+    max-width: 30px; 
+    max-height: 30px;
+}
