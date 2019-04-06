@@ -215,3 +215,7 @@ background-image: url("../img/embarcacion.jpg") ;
       background-size:cover;
     
 }
+
+.centradito{
+    text-align: center;
+}
