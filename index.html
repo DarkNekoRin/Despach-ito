@@ -27,7 +27,7 @@
 
 </head>
     
-<body class="demo-layout-transparent fondocolor" >
+<body class="demo-layout-transparent fondocolor fonditoArticulo" >
     
     
           
@@ -37,7 +37,7 @@
              
                 
          <!-- titulo -->
-         <div class="titulito textoblanco "> Mis Articulos </div>
+         <!--d!iv class="titulito textoblanco "> Mis Articulos </div> -->
          
              
               <ul class="side-nav colorFondoV darken-2" id="mobile-demo">
@@ -113,20 +113,26 @@
                 var fechaEntrega=theItem.fechaEntrega;
                   if(theItem.empresa.nombre==="Lineo"){
                     iconname="img/linio.png";
-                    if(theItem.estado==="compra realizada"){
+                    if(theItem.estado==="Compra Realizada"){
                       fechaEntrega="";
                     }
-
-                    url="pedido_lineo.html";
                   }
-                  if(theItem.empresa.nombre==="Saga"){
-                    url="pedido_saga.html";
+                  if(theItem.empresa.nombre==="Saga"){                   
                     iconname="img/falabella.png";
                   }
                   if(theItem.empresa.nombre==="Sodimac"){
-                    url="pedido_saga.html";
                     iconname="img/sodimac.png";
                   }
+                  if(theItem.estado==="En Almacen"){
+                    url="pedido_almacen.html";
+                  }else if(theItem.estado==="Despacho en Proceso"){
+                    url="pedido_mapa.html";
+                  }else{
+                    url="pedido_lineo.html";
+                  }
+
+
+
                   statusHTML +='<div class="collection unpedido ">'+
                               '<a href="'+url+'?id='+theItem.id+'" >'+
                                   '<li class="collection-item avatar ">'+
