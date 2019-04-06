@@ -48,7 +48,46 @@
     
 <!-- LOGIN -->
 
+<script>
+
+function GetURLParameter(sParam)
+{
+    var sPageURL = window.location.search.substring(1);
+    var sURLVariables = sPageURL.split('&');
+    for (var i = 0; i < sURLVariables.length; i++)
+    {
+
+        var sParameterName = sURLVariables[i].split('=');
+        if (sParameterName[0] == sParam)
+        {            return sParameterName[1];
+        }
+    }
+
+}​;
+
+
+
+
+
+    $(document).ready(function() {
+        var idPedido = GetURLParameter('id');
+        debugger;
+        $.ajax({
+            type:"GET",
+            url: "http://10.100.48.23:8080/pedidos/id/"+idPedido,
+            contentType: "application/json; charset=utf-8",
+            dataType: "json"
+        }).then(function(data) {
     
+            $.each(data, function (i, theItem) {
+             alert(theItem);
+
+
+            });
+    
+        });
+    });
+            </script>
     
     
 
