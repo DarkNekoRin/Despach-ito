@@ -204,7 +204,7 @@ body {
 }
 
 .mapabackground {
-  background-image: url("../img/mapa_background.jpg");
+  background-image: url("../img/Mapa_Animao.gif");
   background-color: #cccccc;
       background-size:cover;
 
@@ -219,4 +219,24 @@ background-image: url("../img/embarcacion.jpg") ;
 
 .centradito{
     text-align: center;
+}
+
+.gordito {
+    padding-right: 15px;
+    padding-left: 15px;
+       -moz-border-radius: 5%;    
+      -webkit-border-radius: 5%;
+        border-radius: 5%;
+}
+
+.totsplash {
+    width: 100%;
+    height: 100%;
+}
+
+.splash {
+  background-image: url("../img/Splash_Redux.gif");
+  background-color: #cccccc;
+      background-size:cover;
+
 }
