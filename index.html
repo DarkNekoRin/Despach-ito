@@ -20,7 +20,7 @@
         <script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
         <script type="text/javascript" src="js/materialize.min.js"></script>
 
-
+		<script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/hola.js"></script>
 
 </head>
@@ -109,6 +109,9 @@
                 var url="pedido_mapa.html";
                   if(theItem.empresa.nombre==="Lineo"){
                     url="pedido_lineo.html";
+                  }
+                  if(theItem.empresa.nombre==="Saga"){
+                    url="pedido_saga.html";
                   }
 
                            statusHTML +='<div class="collection unpedido ">'+
