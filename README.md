@@ -10,8 +10,8 @@ Ganamos el 2°do Puesto
 
 Lo primero que hicimos fue bombarear de ideas. 
 Habia dos problematicas principales en el concurso. 
-1.- Mejorar el E-commerce
-2.- Mejorar Sistema de Despacho
+* 1.- Mejorar el E-commerce
+* 2.- Mejorar Sistema de Despacho
 
 Nosotros probamos comprando y trackeando en el actual proceso e-commerce y presencial del Retail.
 Finalmente nos dimos cuenta que el Pain mas grande era el Despacho, tambien el mas complicado.
