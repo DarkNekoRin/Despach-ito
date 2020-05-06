@@ -1,10 +1,10 @@
 # D E S P A C H - I T O 
 
-Despachito nacio para ver un proyecto en la Hackathon del 2019 de Falabella Peru.
+Despachito nacio para ver un proyecto en la Hackathon del 2019 de Falabella Peru (Retail Group).
 Quisimos mejorar el sistema de trackeo, para esto planteamos varias ideas. 
 Y finalmente postulamos con la siguiente solucion, en esta oportunidad fui lider de proyecto. 
 
-Ganamos el 2°do Puesto
+**Ganamos el 2°do Puesto**
 
 ## B A C K G R O U N D ✒️
 
