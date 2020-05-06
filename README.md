@@ -40,3 +40,18 @@ El codigo y el diseño es el resultado original de la Hackathon
 
 
 ## A P R E N D I D O 📌
+
+* A diferencia de otras Hackathones, esta tuvo mayor intervencion de los stakeholders y pudimos tener mucho mas feedback. 
+* Utilizamos una paleta de colores mas cercana a la empresa sponsor
+* El elevator speech fue mas personal y mas empatico, lo cual ayudo a vender la idea
+* Nos concentramos en las funcionalidades Principales para presentar el producto final funcional
+
+## P O S I C I O N  🛠️
+
+_Me encargue de: 
+* Aterrizar la idea de negocio 
+* Dividir las tareas
+* Liderar al equipo
+* Conversar con los Stakeholders
+* Construccion del maqueteado (HTML + CSS)
+* Exposicion Final _
