@@ -46,12 +46,12 @@ El codigo y el diseño es el resultado original de la Hackathon
 * El elevator speech fue mas personal y mas empatico, lo cual ayudo a vender la idea
 * Nos concentramos en las funcionalidades Principales para presentar el producto final funcional
 
-## P O S I C I O N  🛠️
+## R O L  🛠️
 
-_Me encargue de: 
-* Aterrizar la idea de negocio 
-* Dividir las tareas
-* Liderar al equipo
-* Conversar con los Stakeholders
-* Construccion del maqueteado (HTML + CSS)
-* Exposicion Final _
+_Me encargue de:_ 
+* _Aterrizar la idea de negocio _
+* _Dividir las tareas_
+* _Liderar al equipo_
+* _Conversar con los Stakeholders_
+* _Construccion del maqueteado (HTML + CSS)_
+* _Exposicion Final_
