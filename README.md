@@ -11,7 +11,7 @@ Y tuvimos varias visitas con Stakeholders, el resultado es el siguiente codigo y
 
 El codigo y el diseño es el resultado original de la Hackathon 
 
-#  I D E A    D E    N E G O C I O
+#  I D E A  -  D E  -  N E G O C I O
 
 ![alt text](https://github.com/DarkNekoRin/Despach-ito/blob/master/img/Info01.PNG?raw=true)
 ![alt text](https://github.com/DarkNekoRin/Despach-ito/blob/master/img/Info02.PNG?raw=true)
@@ -21,7 +21,7 @@ El codigo y el diseño es el resultado original de la Hackathon
 ![alt text](https://github.com/DarkNekoRin/Despach-ito/blob/master/img/Info06.PNG?raw=true)
 ![alt text](https://github.com/DarkNekoRin/Despach-ito/blob/master/img/Info07.PNG?raw=true)
 
-# W O R K FL O W   F I N A L
+# W O R K FL O W  -  F I N A L
 ![alt text](https://github.com/DarkNekoRin/Despach-ito/blob/master/img/Info08.PNG?raw=true)
 
 
