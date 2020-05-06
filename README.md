@@ -58,9 +58,10 @@ El codigo y el diseño es el resultado original de la Hackathon
 ![alt text](https://github.com/DarkNekoRin/Despach-ito/blob/master/img/Info08.PNG?raw=true)
 
 
-## T E A M   
-** Leader + UI - Claudia Castro 
-** Graphic Designer - [Joyce Fernandez](https://www.behance.net/J-Sokei)
-** Graphic Designer - [Luis Bedoya](https://www.behance.net/BeddamaLuis)
-** Programmer - [Alfredo Barrios](https://github.com/alfredjava)
+## T E A M ✒️
+_Equipo:_
+* Leader + UI - Claudia Castro 
+* Graphic Designer - [Joyce Fernandez](https://www.behance.net/J-Sokei)
+* Graphic Designer - [Luis Bedoya](https://www.behance.net/BeddamaLuis)
+* Programmer - [Alfredo Barrios](https://github.com/alfredjava)
 
