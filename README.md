@@ -2,9 +2,19 @@
 
 Despachito nacio para ver un proyecto en la Hackathon del 2019 de Falabella Peru (Retail Group).
 Quisimos mejorar el sistema de trackeo, para esto planteamos varias ideas. 
-Y finalmente postulamos con la siguiente solucion, en esta oportunidad fui lider de proyecto. 
+Y finalmente postulamos con la siguiente solucion.
 
 **Ganamos el 2°do Puesto**
+
+## R O L  🛠️
+
+_Me encargue de:_ 
+* _Aterrizar la idea de negocio _
+* _Dividir las tareas_
+* _Liderar al equipo_
+* _Conversar con los Stakeholders_
+* _Construccion del maqueteado (HTML + CSS)_
+* _Exposicion Final_
 
 ## B A C K G R O U N D ✒️
 
@@ -25,6 +35,15 @@ Y tuvimos varias visitas con Stakeholders, el resultado es el siguiente codigo y
 
 El codigo y el diseño es el resultado original de la Hackathon 
 
+
+## A P R E N D I D O 📌
+
+* A diferencia de otras Hackathones, esta tuvo mayor intervencion de los stakeholders y pudimos tener mucho mas feedback. 
+* Utilizamos una paleta de colores mas cercana a la empresa sponsor
+* El elevator speech fue mas personal y mas empatico, lo cual ayudo a vender la idea
+* Nos concentramos en las funcionalidades Principales para presentar el producto final funcional
+
+
 ##  I D E A  -  D E  -  N E G O C I O  🚀
 
 ![alt text](https://github.com/DarkNekoRin/Despach-ito/blob/master/img/Info01.PNG?raw=true)
@@ -39,19 +58,9 @@ El codigo y el diseño es el resultado original de la Hackathon
 ![alt text](https://github.com/DarkNekoRin/Despach-ito/blob/master/img/Info08.PNG?raw=true)
 
 
-## A P R E N D I D O 📌
+## T E A M   
+** Leader + UI - Claudia Castro 
+** Graphic Designer - [Joyce Fernandez](https://www.behance.net/J-Sokei)
+** Graphic Designer - [Luis Bedoya](https://www.behance.net/BeddamaLuis)
+** Programmer - [Alfredo Barrios](https://github.com/alfredjava)
 
-* A diferencia de otras Hackathones, esta tuvo mayor intervencion de los stakeholders y pudimos tener mucho mas feedback. 
-* Utilizamos una paleta de colores mas cercana a la empresa sponsor
-* El elevator speech fue mas personal y mas empatico, lo cual ayudo a vender la idea
-* Nos concentramos en las funcionalidades Principales para presentar el producto final funcional
-
-## R O L  🛠️
-
-_Me encargue de:_ 
-* _Aterrizar la idea de negocio _
-* _Dividir las tareas_
-* _Liderar al equipo_
-* _Conversar con los Stakeholders_
-* _Construccion del maqueteado (HTML + CSS)_
-* _Exposicion Final_
